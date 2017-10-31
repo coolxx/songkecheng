@@ -19,7 +19,8 @@ select,input{outline: none}
 }
 form{
 	margin-top: -12px;
-	height: 356px;
+	overflow: hidden;
+	padding-bottom: 10px;
 	background: #e30516;
 }
 form div{
