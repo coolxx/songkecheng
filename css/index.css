@@ -1,0 +1,118 @@
+*{margin: 0;padding: 0;font-family: "微软雅黑" !important;}
+html{font-size: 20px;}
+li{ list-style:none; }
+a{ text-decoration:none; }
+img{ vertical-align:top; }
+input{outline: none}
+input[type="button"], input[type="submit"], input[type="reset"] {-webkit-appearance: none;}
+.banner{
+	height: 14.575rem;
+	overflow: hidden;
+}
+.banner img{
+	display: block;
+	width: 16.0rem;
+}
+form{
+	margin-top: -0.3rem;
+	height: 8.9rem;
+	background: #e30516;
+}
+form div{
+	margin-top: 0.3rem;
+	height: 1.35rem;
+	line-height: 1.35rem;
+	font-size: 0
+}
+form div span{
+	font-size: 0.55rem;
+	display: inline-block;
+	vertical-align: top;
+	color: #fff;
+	padding-left: 1.9rem;
+	width: 2.5rem;
+}
+form div input{
+	width: 9.725rem;
+	height: 1.35rem;
+	box-sizing:border-box;
+	border: none;
+	box-shadow: 0.1rem 0.1rem  0.2rem  -0.1rem #000 inset;
+	border-radius: 0.3rem;
+	font-size: 0.55rem;
+	padding-left: 0.25rem;
+}
+.addr span{
+	float: left;
+}
+.addr p{
+	width: 4.4rem;
+	height: 1.35rem;
+	overflow: hidden;
+	box-sizing:border-box;
+	border-radius: 0.3rem;
+	float: left;
+	box-shadow: 0.1rem 0.1rem  0.2rem  -0.1rem #000 inset;
+	background: url(../images/m1.png) no-repeat 3.7rem center #fff;
+	background-size: 0.45rem
+}
+.addr select{
+	width: 5.15rem;
+	height: 1.35rem;
+	border: none;
+	font-size: 0.55rem;
+	padding-left: 0.65rem;
+	color: #d4d4d4;
+	font-weight: bold;
+	background: none;
+}
+.two-selec{
+	margin-left: 0.875rem;
+}
+.verification-code input{
+	width: 5.5rem;
+}
+.verification-code a{
+	display: inline-block;
+	vertical-align: top;
+	width: 3.85rem;
+	height: 1.35rem;
+	background: #fcdc59;
+	margin-left: 0.375rem;
+	border-radius: 0.2rem;
+	font-size: 0.55rem;
+	line-height: 1.35rem;
+	color: #480817;
+	text-align: center;
+}
+input[type='submit']{
+	width: 12.1rem;
+	height: 1.975rem;
+	display: block;
+	background: url(../images/sub.png) no-repeat center;
+	background-size: 12.1rem;
+	margin: 0.4rem auto 0;
+	border: none;
+}
+.main{
+	height: 18.05rem;
+	background: url(../images/main.jpg) no-repeat center;
+	background-size: 16.0rem;
+	overflow: hidden;
+}
+.main b{
+	display: block;
+	text-align: center;
+	font-size: 0.85rem;
+	line-height: 0.85rem;
+	color: #692b01;
+	margin-top: 4.3rem;
+}
+.main p{
+	font-size: 0.6rem;
+	line-height: 1.25rem;
+	margin-top: 1.0rem;
+	color: #480817;
+	text-indent: 2em;
+	margin-left: 1.7rem;
+}

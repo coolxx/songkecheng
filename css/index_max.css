@@ -1,0 +1,119 @@
+*{margin: 0;padding: 0;font-family: "微软雅黑"}
+body,html{
+	width: 640px;
+	margin: 0 auto;
+	color: #333333;
+}
+li{ list-style:none; }
+a{ text-decoration:none; }
+img{ vertical-align:top; }
+select,input{outline: none}
+
+.banner{
+	height: 583px;
+	overflow: hidden;
+}
+.banner img{
+	display: block;
+	width: 640px;
+}
+form{
+	margin-top: -12px;
+	height: 356px;
+	background: #e30516;
+}
+form div{
+	margin-top: 12px;
+	height: 54px;
+	line-height: 54px;
+	font-size: 0
+}
+form div span{
+	font-size: 22px;
+	display: inline-block;
+	vertical-align: top;
+	color: #fff;
+	padding-left: 76px;
+	width: 100px;
+}
+form div input{
+	width: 389px;
+	height: 54px;
+	box-sizing:border-box;
+	border: none;
+	box-shadow: 4px 4px  8px  -4px #000 inset;
+	border-radius: 12px;
+	font-size: 22px;
+	padding-left: 10px;
+}
+.addr span{
+	float: left;
+}
+.addr p{
+	width: 176px;
+	height: 54px;
+	overflow: hidden;
+	box-sizing:border-box;
+	border-radius: 12px;
+	float: left;
+	box-shadow: 4px 4px  8px  -4px #000 inset;
+	background: url(../images/m1.png) no-repeat 148px center #fff;
+}
+.addr select{
+	width: 206px;
+	height: 54px;
+	border: none;
+	font-size: 22px;
+	padding-left: 26px;
+	color: #d4d4d4;
+	font-weight: bold;
+	background: none;
+}
+.two-selec{
+	margin-left: 35px;
+}
+.verification-code input{
+	width: 220px;
+}
+.verification-code a{
+	display: inline-block;
+	vertical-align: top;
+	width: 154px;
+	height: 54px;
+	background: #fcdc59;
+	margin-left: 15px;
+	border-radius: 8px;
+	font-size: 22px;
+	line-height: 54px;
+	color: #480817;
+	text-align: center;
+}
+input[type='submit']{
+	width: 484px;
+	height: 79px;
+	display: block;
+	background: url(../images/sub.png) no-repeat center;
+	margin: 16px auto 0;
+	border: none;
+}
+.main{
+	height: 722px;
+	background: url(../images/main.jpg) no-repeat center;
+	overflow: hidden;
+}
+.main b{
+	display: block;
+	text-align: center;
+	font-size: 34px;
+	line-height: 34px;
+	color: #692b01;
+	margin-top: 172px;
+}
+.main p{
+	font-size: 24px;
+	line-height: 50px;
+	margin-top: 40px;
+	color: #480817;
+	text-indent: 2em;
+	margin-left: 68px;
+}
