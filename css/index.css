@@ -6,7 +6,7 @@ img{ vertical-align:top; }
 input{outline: none}
 input[type="button"], input[type="submit"], input[type="reset"] {-webkit-appearance: none;}
 .banner{
-	height: 14.575rem;
+	height: 14.57rem;
 	overflow: hidden;
 	background: #e30516;
 }
@@ -33,17 +33,24 @@ form div span{
 	color: #fff;
 	padding-left: 1.9rem;
 	width: 2.5rem;
+	float: left;
+}
+form div p{
+	width: 9.725rem;
+	height: 1.35rem;
+	float: left;
+	background: #fff;
+	box-shadow: 0.1rem 0.1rem  0.2rem  -0.1rem #000 inset;
+	border-radius: 0.3rem;
 }
 form div input{
 	width: 9.725rem;
 	height: 1.35rem;
 	box-sizing:border-box;
+	background: none;
 	border: none;
-	box-shadow: 0.1rem 0.1rem  0.2rem  -0.1rem #000 inset;
-	border-radius: 0.3rem;
 	font-size: 0.55rem;
 	padding-left: 0.25rem;
-	background: #fff;
 }
 .addr span{
 	float: left;
@@ -72,12 +79,15 @@ form div input{
 .two-selec{
 	margin-left: 0.875rem;
 }
+.verification-code p{
+	float: left;
+	width: 5.5rem
+}
 .verification-code input{
 	width: 5.5rem;
 }
 .verification-code a{
-	display: inline-block;
-	vertical-align: top;
+	float: left;
 	width: 3.85rem;
 	height: 1.35rem;
 	background: #fcdc59;
