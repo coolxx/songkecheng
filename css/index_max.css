@@ -40,6 +40,7 @@ form div input{
 	width: 389px;
 	height: 54px;
 	box-sizing:border-box;
+	background: #fff;
 	border: none;
 	box-shadow: 4px 4px  8px  -4px #000 inset;
 	border-radius: 12px;
